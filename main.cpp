@@ -1,9 +1,8 @@
-#include <iostream>
-
-using namespace std;
+#include "persona.h"
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    Persona Pepito;
+    Pepito.muestra_datos();
     return 0;
 }
