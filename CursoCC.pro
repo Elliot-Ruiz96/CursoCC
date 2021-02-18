@@ -4,8 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        Fecha.cpp \
         main.cpp \
         persona.cpp
 
 HEADERS += \
+    Fecha.h \
     persona.h
